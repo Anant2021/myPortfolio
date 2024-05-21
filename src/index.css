@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Sedan+SC&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  
+}
+body{
+  
+  text-align: center;
+  
+  
+}
+nav{
+  background-color:rgb(21, 4, 27);
+  
+}
+#b1{
+border-radius: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-color: rgb(160, 81, 157);
+background-color:darkslategrey;
+border-width: 3px;
+font-size: larger;
+text-justify: auto;
+}
+
+#icon{
+  margin: 8px;
+
+  align-items: first baseline;
+justify-items: center;
+/* background-color: rgb(160, 124, 159); */
+
+}
+
+#img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+#s1{
+  text-decoration: wavy;
+}
+#pc{
+  font-size: 20px;
+  /* background: linear-gradient(to left,
+        violet,
+        indigo,
+        blue,
+        green,
+        yellow,
+        orange,
+        rgb(206, 106, 106)); */
+        background-color: white;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+#profilePic{
+  width: 400px;
+  height: 400px;
+ border-radius: 50%;
+margin-left: 0%;
+}
+#ad1{
+  font-size: 30px;
+}
+#ab2{
+  width: 300px;
+  margin-right: auto;
+}
+#abt{
+  font-size: 20px;
+}
+/* #t1{
+  background-color:antiquewhite;
+} */
+#spring{
+  color: darkgreen;
+}
